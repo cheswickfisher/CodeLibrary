@@ -10,8 +10,8 @@ namespace Ross.Animation
         public Vector3 referenceAxis = Vector3.forward;
         public Vector3 forwardAxis = Vector3.forward;
 
-        [Range(0.0f, 360.0f)]public float cwConstraintDegs;
-        [Range(0.0f, 360.0f)]public float acwConstraintDegs;
+        [Range(0.0f, 181.0f)]public float cwConstraintDegs;
+        [Range(0.0f, 181.0f)]public float acwConstraintDegs;
 
         private void Awake()
         {
