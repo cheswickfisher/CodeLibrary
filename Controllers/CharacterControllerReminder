@@ -1,0 +1,5 @@
+CharacterController is supposed to be an all purpose controller. It is designed to work for both players and AI. 
+PhysicsController is an extension of CharacterController that uses Force commands in Unity's built in Physics system to control movement and rotation.
+
+
+In order for the Controller to work, it must be accompanied by 1) an AgentType and 2) an InputModel. 
